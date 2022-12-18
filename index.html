@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/607b2578c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.15/sweetalert2.min.js" integrity="sha512-Z4QYNSc2DFv8LrhMEyarEP3rBkODBZT90RwUC7dYQYF29V4dfkh+8oYZHt0R6T3/KNv32/u0W6icGWUUk9V0jA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.15/sweetalert2.css" integrity="sha512-JzSVRb7c802/njMbV97pjo1wuJAE/6v9CvthGTDxiaZij/TFpPQmQPTcdXyUVucsvLtJBT6YwRb5LhVxX3pQHQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <button type="button" class="confirmbtn" onclick="Swal.fire({icon: 'success',title:'thanks'})">✓</button>
+    <div id="first">
+    <form action="">
+        <i class="fa-regular fa-address-book"></i>
+        <input type="text" placeholder="Name" class="input" id="name" required>
+        <i class="fa-regular fa-envelope"></i>
+        <input type="email" placeholder="E-mail" class="input" id="mail" required>
+        <i class="fa-solid fa-chart-simple"></i>
+        <input type="number" placeholder="Age" class="input" id="age" required>
+        <i class="fa-solid fa-calendar-days"></i>
+        <input type="text" placeholder="Last Donation Date" class="input" onfocus="(this.type='date')" class="date" required>
+        <i class="fa-solid fa-phone"></i>
+        <input type="text" placeholder="Phone Number" class="input" id="phone" required>
+        <i class="fa-solid fa-calendar-days"></i>
+        <input type="text" placeholder="Date" class="input" onfocus="(this.type='date')" class="date" required>
+        <label for="bloodtype">Blood Type</label>
+        <input type="radio" name="bloodtype" value="A+">
+        <label for="A+">A+</label>
+        <input type="radio" name="bloodtype" value="B+">
+        <label for="B+">B+</label>
+        <input type="radio" name="bloodtype" value="O+">
+        <label for="O+">O+</label>
+        <input type="radio" name="bloodtype" value="AB+">
+        <label for="AB+">AB+</label>
+        
+        <input type="radio" name="bloodtype" value="A-">
+        <label for="A-" class="typeneg">A-</label>
+        <input type="radio" name="bloodtype" value="B-">
+        <label for="B-" class="typeneg">B-</label>
+        <input type="radio" name="bloodtype" value="O-">
+        <label for="O-" class="typeneg">O-</label>
+        <input type="radio" name="bloodtype" value="AB-">
+        <label for="AB-" class="typeneg">AB-</label>
+        <a href="" class="locate">VIEW ALL DONOR CENTER LOCATIONS</a>
+        <input type="button" value="FIND A LOCATION 📍">
+    </div>
+        
+    
+</form>
+</body>
+</html>

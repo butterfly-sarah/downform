@@ -1,0 +1,79 @@
+body{
+    background-image: url("images/stethoscope-wit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#first{
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 390px;
+}
+.input{
+    margin-top: 15px;
+    display: inline-block;
+    height: 20px;
+    width: 350px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+i{
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+label{
+    display: inline-block;
+    margin-right: 41px;
+    font-weight: bold;
+}
+.typeneg{
+    margin-right: 45px;
+}
+label[for="bloodtype"]{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: block;
+}
+.locate{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+input[type="date" i] {
+    width: 355px;
+}
+.locate:hover{
+    color: white;
+}
+input[type="button"]{
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    width: 180px;
+    background-color: rgb(104, 131, 104);
+    color: white;
+    margin-left: 100px;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.confirmbtn{
+    width: 50px;
+    height:50px;
+    font-size: 35px;
+    margin-right:-30%;
+    border-radius: 50%;
+    border: none;
+}
+.confirmbtn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
