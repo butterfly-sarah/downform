@@ -111,7 +111,7 @@ input[type="button"]:hover{
         margin-left: 35px;
     }
 }
-@media(max-width:400px){
+@media(max-width:390px){
     html{
         background: url('images/stethoscope-wit.png') no-repeat right fixed;
         background-size: cover;
