@@ -1,14 +1,15 @@
-body{
-    background-image: url("images/stethoscope-wit.png");
-    background-repeat: no-repeat;
+html{
+    background: url('images/stethoscope-wit.png') no-repeat center fixed;
     background-size: cover;
+}
+body{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 #first{
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 80px;
     width: 390px;
 }
 .input{
@@ -24,6 +25,7 @@ body{
 i{
     border-bottom: 1px solid gray;
     padding-bottom: 5px;
+    color: grey;
 }
 label{
     display: inline-block;
@@ -76,4 +78,68 @@ input[type="button"]:hover{
 .confirmbtn:hover{
     cursor: pointer;
     border: 2px solid black;
+}
+@media(max-width:450px){
+    html{
+        background: url('images/stethoscope-wit.png') no-repeat right fixed;
+        background-size: cover;
+    }
+    body{
+        justify-content: left;
+    }
+    #first{
+        margin-top: 50px;
+        margin-right: 0px;
+        width: 250px;
+    }
+    .input{
+        width: 220px;
+    }
+    .confirmbtn{
+        margin-left:40%;
+    }
+    label{
+        margin-right: 10px;
+    }
+    .typeneg{
+        margin-right: 14px;
+    }
+    .locate{
+        font-size: 12px;
+    }
+    input[type="button"]{
+        margin-left: 35px;
+    }
+}
+@media(max-width:400px){
+    html{
+        background: url('images/stethoscope-wit.png') no-repeat right fixed;
+        background-size: cover;
+    }
+    body{
+        justify-content: center;
+    }
+    #first{
+        margin-top: 50px;
+        margin-right: 0px;
+        width: 250px;
+    }
+    .input{
+        width: 220px;
+    }
+    .confirmbtn{
+        margin-left:50%;
+    }
+    label{
+        margin-right: 10px;
+    }
+    .typeneg{
+        margin-right: 14px;
+    }
+    .locate{
+        font-size: 12px;
+    }
+    input[type="button"]{
+        margin-left: 35px;
+    }
 }
