@@ -131,7 +131,39 @@ input[type="button"]:hover{
         margin-left:50%;
     }
     label{
-        margin-right: 9px;
+        margin-right: 10px;
+    }
+    .typeneg{
+        margin-right: 14px;
+    }
+    .locate{
+        font-size: 12px;
+    }
+    input[type="button"]{
+        margin-left: 35px;
+    }
+}
+@media(max-width:350px){
+    html{
+        background: url('images/stethoscope-wit.png') no-repeat right fixed;
+        background-size: cover;
+    }
+    body{
+        justify-content: center;
+    }
+    #first{
+        margin-top: 50px;
+        margin-right: 0px;
+        width: 250px;
+    }
+    .input{
+        width: 220px;
+    }
+    .confirmbtn{
+        margin-left:50%;
+    }
+    label{
+        margin-right: 7px;
     }
     .typeneg{
         margin-right: 14px;
