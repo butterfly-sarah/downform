@@ -163,6 +163,10 @@ input[type="button"]:hover{
     input[type="button"]{
         margin-left: 35px;
     }
+    .nav{
+        height: 35px;
+        bottom:5px ;
+    }
 }
 @media(max-width:350px){
     html{
@@ -170,10 +174,12 @@ input[type="button"]:hover{
         background-size: cover;
     }
     body{
+        height: 110vh;
+        width: 110vw;
         justify-content: center;
     }
     #first{
-        margin-top: 50px;
+        margin-top: -10px;
         margin-right: 0px;
         width: 250px;
     }
@@ -194,6 +200,10 @@ input[type="button"]:hover{
     }
     input[type="button"]{
         margin-left: 35px;
+    }
+    .nav{
+        height: 28px;
+        bottom:5px ;
     }
     .nav a{
         font-size: small;
